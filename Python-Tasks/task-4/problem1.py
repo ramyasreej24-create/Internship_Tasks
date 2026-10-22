@@ -4,12 +4,11 @@ https://www.hackerrank.com/challenges/py-if-else/problem
 
 if __name__ == '__main__':
     n = int(input().strip())
-
-    if n % 2 == 1:
+ if n % 2 == 1:
         print("Weird")
-    elif 2 <= n <= 5:
+ elif 2 <= n <= 5:
         print("Not Weird")
-    elif 6 <= n <= 20:
+ elif 6 <= n <= 20:
         print("Weird")
-    else:
+ else:
         print("Not Weird")
